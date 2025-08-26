@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+    color: #22363c;
+
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+    color: #22363c;
+
+}
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+      color: #070f12;
+
+}
+h5{
+      font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.6rem;
+}
+.price-org{
+      margin-left: 0.7rem;
+    font-weight: 600;
+}
+.para{
+  color: gray;
+}
+.para-sub{
+  color: #6796a6;
+  font-weight: 500;
+}
+.container {
+  width: 90% !important;
+  margin: auto;
+}
+.fulid{
+  width: 100%;
+}
+
+/* <!-- Navebar section --> */
+.section-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+ 
+ 
+}
+header {
+  background-color: #e8f4f8;
+  align-items: center;
+  /* justify-content: center; */
+  display: flex;
+   position: sticky !important;
+  top: 0px;
+  z-index: 999;
+}
+.section-1__title {
+  font-size: 2rem;
+  font-family: "Monomakh", system-ui;
+  color: #22363c;
+}
+.section-1__nav ul {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+.section-1__nav li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #22363c;
+  transition: all 0.3s;
+  border-bottom: 2px solid #e8f4f8;
+}
+.section-1__nav__ul__home {
+  border-bottom: 2px solid #85c7df;
+}
+.section-1__nav a:hover {
+  color: #85c7df;
+  border-bottom: 2px solid #85c7df;
+}
+.section-1__icon {
+  color: #22363c;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 30px;
+}
+.icon-1 {
+  display: flex;
+  gap: 5px;
+  transition: all 0.3s;
+}
+.icon-1:hover {
+  color: #85c7df;
+}
+  .meu-bar{
+    display: none;
+    font-size: 2rem;
+  }
+
+.form-name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width:768px) {
+  .section-1__icon{
+    display: none;
+  }
+  .footer-main-3{
+    display: none;
+  }
+}
+@media screen and (max-width:600px) {
+  .section-1__nav{
+    display: none;
+  }
+  .meu-bar{
+    display: block;
+  }
+    .footer-main-2{
+    display: none;
+  }
+}
+/* Show nav when active on mobile */
+.section-1__nav.active {
+  display: block !important;
+  flex-direction: column;
+  background: #fff;
+  position: absolute;
+  top: 70px;  /* adjust if your header is taller */
+  right: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 15px;
+  z-index: 1000;
+}
+/* Fix global mobile overflow */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Navbar fix */
+@media screen and (max-width: 768px) {
+  .section-1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-1__nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+/* Contact page fix */
+@media screen and (max-width: 600px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .info-box {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* Collections/Product grid fix */
+@media screen and (max-width: 600px) {
+  .mens-casual__products,
+  .section-3__product-main,
+  .section-5__products {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mens-casual__product,
+  .section-3__product,
+  .section-5__product-1 {
+    width: 90% !important;  /* fit inside screen */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.footer{
+  background-color: #E8F4F8;
+  width: 100%;
+}
+.copy-rights{
+  margin-top: 2rem;
+}
+.footer-main-2, .footer-main-3{
+  margin-top: 4rem;
+}
+.footer__section-1__icon{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.footer__section-1__icon ion-icon{
+  font-size: 1.5rem;
+}
