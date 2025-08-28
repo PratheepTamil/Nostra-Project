@@ -311,26 +311,25 @@
       </div>
     </div>
     <!-- Service & Support -->
-    <!-- <div class="section-6">
-      <div class="section-6__main">
-        <div class="section-6__main-1">
-          <img src="./image/icon-2/free-delivery.png" alt="" />
-          <p>Free Shipment Over 50$</p>
-        </div>
-        <div class="section-6__main-1">
-          <img src="./image/icon-2/support.png" alt="" />
-          <p>24/7 online Support</p>
-        </div>
-        <div class="section-6__main-1">
-          <img src="./image/icon-2/credit-card.png" alt="" />
-          <p>100% Secure Payment</p>
-        </div>
-        <div class="section-6__main-1">
-          <img src="./image/icon-2/box.png" alt="" />
-          <p>World Wide Shipment</p>
-        </div>
+    <div class="section-6">
+      <div class="section-6__main-1">
+        <img src="./image/icon-2/free-delivery.png" alt="" />
+        <p>Free Shipment Over 50$</p>
       </div>
-    </div> -->
+      <div class="section-6__main-1">
+        <img src="./image/icon-2/support.png" alt="" />
+        <p>24/7 online Support</p>
+      </div>
+      <div class="section-6__main-1">
+        <img src="./image/icon-2/credit-card.png" alt="" />
+        <p>100% Secure Payment</p>
+      </div>
+      <div class="section-6__main-1">
+        <img src="./image/icon-2/box.png" alt="" />
+        <p>World Wide Shipment</p>
+      </div>
+    </div>
+
     <!-- Subscribe -->
     <div class="section-7" id="subscribe">
       <div class="section-7-1">
@@ -364,16 +363,26 @@
       </div>
     </div>
     <!-- Brands -->
-    <!-- <div class="section-8">
-      <div class="section-8__main">
+    <div class="section-8">
+      <div class="section-8__main-1">
         <img src="./image/brand/c-mg-1.png" alt="" />
+      </div>
+      <div class="section-8__main-1">
         <img src="./image/brand/c-mg-2.png" alt="" />
-        <img src="./image/brand/c-mg-3.png" alt="" />
-        <img src="./image/brand/c-mg-1.png" alt="" />
-        <img src="./image/brand/c-mg-2.png" alt="" />
+      </div>
+      <div class="section-8__main-1">
         <img src="./image/brand/c-mg-3.png" alt="" />
       </div>
-    </div> -->
+      <div class="section-8__main-1">
+        <img src="./image/brand/c-mg-1.png" alt="" />
+      </div>
+      <div class="section-8__main-1">
+        <img src="./image/brand/c-mg-2.png" alt="" />
+      </div>
+      <div class="section-8__main-1">
+        <img src="./image/brand/c-mg-3.png" alt="" />
+      </div>
+    </div>
     <!-- Footer -->
     <div class="footer">
       <div class="footer-main">
@@ -437,20 +446,19 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script>
-  const menuBar = document.querySelector(".meu-bar");
-  const nav = document.querySelector(".section-1__nav");
+      const menuBar = document.querySelector(".meu-bar");
+      const nav = document.querySelector(".section-1__nav");
 
-  menuBar.addEventListener("click", () => {
-    nav.classList.toggle("active");
-  });
+      menuBar.addEventListener("click", () => {
+        nav.classList.toggle("active");
+      });
 
-  // Optional: close menu when link is clicked
-  document.querySelectorAll(".section-1__nav a").forEach(link => {
-    link.addEventListener("click", () => {
-      nav.classList.remove("active");
-    });
-  });
-</script>
-
+      // Optional: close menu when link is clicked
+      document.querySelectorAll(".section-1__nav a").forEach((link) => {
+        link.addEventListener("click", () => {
+          nav.classList.remove("active");
+        });
+      });
+    </script>
   </body>
 </html>
