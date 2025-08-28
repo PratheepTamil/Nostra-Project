@@ -304,7 +304,7 @@ body {
   margin: 50px auto;
 }
 .section-6__main-1 img {
-  width: 100%;
+  width: 50%;
 }
 .section-6__main-1 {
   width: 12%;
@@ -497,7 +497,7 @@ body {
     flex-wrap: wrap;
   }
   .section-6__main-1 img {
-    width: 70%;
+    width: 50%;
   }
   .section-8__main-1 {
     width: 32%;
